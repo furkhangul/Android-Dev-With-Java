@@ -1,0 +1,48 @@
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/output"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/input"
+            android:layout_gravity="center"
+            android:autofillHints="Write"
+            android:hint="@string/write"
+            android:inputType="text"
+            android:layout_marginTop="15sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/btn"
+            android:layout_gravity="center"
+            android:text="@string/btn"
+            android:onClick="btnWrite"
+            android:layout_marginTop="15sp"
+            android:layout_marginLeft="60sp"
+            android:layout_marginRight="60sp"
+            android:textStyle="italic"
+            android:textSize="18sp" />
+    </LinearLayout>
