@@ -5,7 +5,6 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
 public class MainActivity extends AppCompatActivity {
     SQLiteDatabase database;
     @Override
